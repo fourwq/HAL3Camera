@@ -97,7 +97,7 @@ public class CameraManagerActivity extends Activity {
             super.onCameraAvailable(cameraId);
             showMessage("onCameraAvailable: "+ cameraId);
         }
-
+  
         @Override
         public void onCameraUnavailable(String cameraId) {
             super.onCameraUnavailable(cameraId);

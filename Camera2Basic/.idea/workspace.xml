@@ -98,12 +98,12 @@
       <file leaf-file-name="CameraManagerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/qwei/checkCameraManager/CameraManagerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5919003">
-              <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.88161993">
+              <caret line="99" column="2" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4092#4093#0" expanded="true" />
-                <element signature="e#4159#4160#0" expanded="true" />
+                <element signature="e#4094#4095#0" expanded="true" />
+                <element signature="e#4161#4162#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2284,7 +2284,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="6" width="1366" height="722" extended-state="1" />
+    <frame x="0" y="6" width="1366" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2572,12 +2572,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/qwei/checkCameraManager/CameraManagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5919003">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.88161993">
+          <caret line="99" column="2" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4092#4093#0" expanded="true" />
-            <element signature="e#4159#4160#0" expanded="true" />
+            <element signature="e#4094#4095#0" expanded="true" />
+            <element signature="e#4161#4162#0" expanded="true" />
           </folding>
         </state>
       </provider>

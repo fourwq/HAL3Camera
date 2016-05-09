@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">相机API2</string>
+    <string name="camera_error">设备不支持相机API2</string>
+    <string name="description_info">信息</string>
+    <string name="intro_message">这个例子展示了相机API2的基本用法，请查看源码学习如何开启相机预览以及进行拍照</string>
+    <string name="main_start_camera_basic">启动相机拍照</string>
+    <string name="picture">图片</string>
+    <string name="request_permission">程序需要相机权限</string>
+    <string name="reset">重置</string>
+</resources>

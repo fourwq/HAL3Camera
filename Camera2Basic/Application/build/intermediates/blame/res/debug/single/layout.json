@@ -140,12 +140,12 @@
         "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",

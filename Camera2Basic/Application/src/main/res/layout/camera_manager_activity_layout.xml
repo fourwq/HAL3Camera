@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:text="New Button"
         android:id="@+id/button7"
-        android:layout_below="@+id/button5"
+        android:layout_below="@+id/button6"
         android:textAllCaps="false"
         android:layout_centerHorizontal="true" />
 

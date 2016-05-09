@@ -16,6 +16,12 @@ public class MainActivity extends Activity {
     private Button mStartCameraBasic=null;
     private Button mStartCameraManager=null;
     private MyOnClickListener mMyOnClickListener = new MyOnClickListener();
+    private ViewContainer mViewContainer = new ViewContainer();
+
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +31,7 @@ public class MainActivity extends Activity {
         mStartCameraManager = (Button) findViewById(R.id.main_start_camera_manager);
         mStartCameraBasic.setOnClickListener(mMyOnClickListener);
         mStartCameraManager.setOnClickListener(mMyOnClickListener);
+        mViewContainer.initListContainer(this);
     }
 
     private class MyOnClickListener implements View.OnClickListener{

@@ -3,6 +3,16 @@
 android:layout_width="match_parent"
 android:layout_height="match_parent">
 
+    <ExpandableListView
+        android:id="@+id/main_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ExpandableListView>
+
+
+
+
 <Button
     android:id="@+id/main_start_camera_manager"
     android:layout_width="wrap_content"

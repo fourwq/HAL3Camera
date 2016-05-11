@@ -5,7 +5,7 @@
         jar="C:\Users\camera\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="493c3b50abe8eafe41fd908e02ce772b765d8dcb">
+        sha1="cdf2ceb79d99fd952687388477b503b871507723">
         <dex dex="C:\Users\camera\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b52b2430da6b73c4e017f7ea75c7f97c58851e8\classes.dex" />
     </item>
     <item
@@ -47,7 +47,7 @@
         jar="C:\Users\camera\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="dd95604d668693a36c8e603046c03fc3baf44952">
+        sha1="61c1f0e839d82db83fbdc79b4727b40766ccc086">
         <dex dex="C:\Users\camera\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f70f3027c2adb77a218b9e430856972e90501bf7\classes.dex" />
     </item>
     <item

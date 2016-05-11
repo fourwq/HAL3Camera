@@ -56,12 +56,20 @@
         "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\main_list_view_child.xml",
+        "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\src\\main\\res\\layout\\main_list_view_child.xml"
+    },
+    {
         "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\main_list_view_group.xml",
+        "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\src\\main\\res\\layout\\main_list_view_group.xml"
     },
     {
         "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",

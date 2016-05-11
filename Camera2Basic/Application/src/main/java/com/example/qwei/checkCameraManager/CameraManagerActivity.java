@@ -4,6 +4,7 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
 import android.hardware.camera2.CameraAccessException;
+import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -26,6 +27,7 @@ public class CameraManagerActivity extends Activity {
     private Button mButtonReset = null;
     private MyAvailabilityCallback mMyAvailabilityCallback = new MyAvailabilityCallback();
     private Button mRegisterTorchCallback = null;
+    private Button mGetHardwareLevel = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,7 @@ public class CameraManagerActivity extends Activity {
         mRegisterAvailabilityCallback = (Button) findViewById(R.id.camera_manager_registerAvailabilityCallback);
         mButtonReset = (Button) findViewById(R.id.camera_manager_reset);
         mRegisterTorchCallback = (Button) findViewById(R.id.camera_manager_registerTorchCallback);
+        mGetHardwareLevel = (Button) findViewById(R.id.camera_manager_getHardwareLevel);
         initListeners();
     }
 
@@ -44,6 +47,7 @@ public class CameraManagerActivity extends Activity {
         mRegisterAvailabilityCallback.setOnClickListener(mMyOnClickListener);
         mButtonReset.setOnClickListener(mMyOnClickListener);
         mRegisterTorchCallback.setOnClickListener(mMyOnClickListener);
+        mGetHardwareLevel.setOnClickListener(mMyOnClickListener);
     }
 
     private class MyOnClickListener implements View.OnClickListener{
@@ -63,13 +67,53 @@ public class CameraManagerActivity extends Activity {
                 case R.id.camera_manager_registerTorchCallback:
                     showMessage("need android M");
                     break;
+                case R.id.camera_manager_getHardwareLevel:
+                    showHardwareLevel(mCameraManager);
+                    break;
                 default:
                     break;
             }
         }
     }
 
+    private void showHardwareLevel(CameraManager manager){
+        String[]  cameraIdList = null;
+        try {
+            cameraIdList = manager.getCameraIdList();
+        } catch (CameraAccessException e) {
+            e.printStackTrace();
+        }
+        if(cameraIdList==null){
+            showMessage("there is no camera");
+            return;
+        }
+        for(String id: cameraIdList){
+            CameraCharacteristics  characteristics= null;
+            try {
+                 characteristics = manager.getCameraCharacteristics(id);
+            } catch (CameraAccessException e) {
+                e.printStackTrace();
+            }
+            if(characteristics!=null){
+                int level = characteristics.get(CameraCharacteristics.INFO_SUPPORTED_HARDWARE_LEVEL);
+                switch(level){
+                    case CameraCharacteristics.INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED:
+                        showMessage("id: "+id+"    level: limited");
+                        break;
+                    case CameraCharacteristics.INFO_SUPPORTED_HARDWARE_LEVEL_LEGACY:
+                        showMessage("id: "+id+"    level: legacy");
+                        break;
+                    case CameraCharacteristics.INFO_SUPPORTED_HARDWARE_LEVEL_FULL:
+                        showMessage("id: "+id+"    level: full");
+                        break;
+                }
 
+
+            }
+
+        }
+
+    }
 
     private void reset(CameraManager manager){
         Log.e("wq", "reset");

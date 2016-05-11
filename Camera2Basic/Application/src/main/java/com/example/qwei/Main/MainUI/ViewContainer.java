@@ -3,6 +3,7 @@ package com.example.qwei.Main.MainUI;
 import android.app.Activity;
 import android.content.Context;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
@@ -102,14 +103,47 @@ class  MyExpandableAdapter extends BaseExpandableListAdapter{
 
     @Override
     public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
-        return getGenericView(mGroupArray.get(groupPosition));
+
+        TextView groupHolder;
+        if(convertView == null){
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.main_list_view_group, null);
+            groupHolder = (TextView) convertView.findViewById(R.id.main_group_item_description);
+            convertView.setTag(groupHolder);
+        }else{
+            groupHolder = (TextView) convertView.getTag();
+        }
+
+        groupHolder.setText(mGroupArray.get(groupPosition));
+        return  convertView;
+//        return getGenericView(mGroupArray.get(groupPosition));
     }
+
+
+
+
 
     @Override
     public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
-        String string = mChildArray.get(groupPosition).get(childPosition);
-        return getGenericView(string);
+//        String string = mChildArray.get(groupPosition).get(childPosition);
+
+
+        TextView groupHolder;
+        if(convertView == null){
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.main_list_view_child, null);
+            groupHolder = (TextView) convertView.findViewById(R.id.main_child_item_description);
+            convertView.setTag(groupHolder);
+        }else{
+            groupHolder = (TextView) convertView.getTag();
+        }
+
+        groupHolder.setText(mChildArray.get(groupPosition).get(childPosition));
+
+        return convertView;
+//        return getGenericView(mGroupArray.get(groupPosition));
+//        return getGenericView(string);
     }
+
+
 
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {

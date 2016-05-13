@@ -116,6 +116,10 @@
         "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\simple_text_button.xml",
+        "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\src\\main\\res\\layout\\simple_text_button.xml"
+    },
+    {
         "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_camera2_basic.xml",
         "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\src\\main\\res\\layout\\fragment_camera2_basic.xml"
     },
@@ -146,6 +150,10 @@
     {
         "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\simple_text.xml",
+        "source": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\src\\main\\res\\layout\\simple_text.xml"
     },
     {
         "merged": "C:\\Users\\camera\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",

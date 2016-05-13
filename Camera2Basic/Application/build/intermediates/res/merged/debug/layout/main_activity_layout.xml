@@ -11,41 +11,4 @@ android:layout_height="match_parent">
     </ExpandableListView>
 
 
-
-
-<Button
-    android:id="@+id/main_start_camera_manager"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:text="@string/main_start_camera_manager"
-    android:textAllCaps="false" />
-
-<Button
-    android:id="@+id/main_start_camera_basic"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/main_start_camera_manager"
-    android:layout_centerHorizontal="true"
-    android:text="@string/main_start_camera_basic"
-    android:textAllCaps="false" />
-
-<Button
-    android:id="@+id/button3"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/main_start_camera_basic"
-    android:layout_centerHorizontal="true"
-    android:text="New Button"
-    android:textAllCaps="false" />
-
-<Button
-    android:id="@+id/main_reset"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
-    android:layout_centerHorizontal="true"
-    android:text="@string/reset"
-    android:textAllCaps="false" />
 </RelativeLayout>

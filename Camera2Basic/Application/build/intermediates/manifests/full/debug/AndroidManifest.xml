@@ -40,10 +40,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.qwei.camera2basic.CameraActivity" >
-        </activity>
-        <activity android:name="com.example.qwei.checkCameraManager.CameraManagerActivity" >
-        </activity>
+        <activity android:name="com.example.qwei.camera2basic.CameraActivity" />
+        <activity android:name="com.example.qwei.common.GetCameraIdListActivity" />
+        <activity android:name="com.example.qwei.common.AvailabilityCallbackActivity" />
+        <activity android:name="com.example.qwei.common.TestTorchActivity" />
+        <activity android:name="com.example.qwei.common.CameraCharacteristicsActivity" />
     </application>
 
 </manifest>

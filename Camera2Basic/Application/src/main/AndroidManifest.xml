@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
+<?xml version="1.0" encoding="UTF-8"?><!--
  Copyright 2014 The Android Open Source Project
 
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,26 +22,27 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
-    <application android:allowBackup="true"
-        android:label="@string/app_name"
+    <application
+        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
         android:theme="@style/MaterialTheme">
 
-        <activity android:name="com.example.qwei.Main.MainUI.MainActivity"
-                  android:label="@string/app_name">
+        <activity
+            android:name="com.example.qwei.Main.MainUI.MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.qwei.camera2basic.CameraActivity"
-            >
-        </activity>
+        <activity android:name="com.example.qwei.camera2basic.CameraActivity"></activity>
+        <activity android:name="com.example.qwei.common.GetCameraIdListActivity"></activity>
+        <activity android:name="com.example.qwei.common.AvailabilityCallbackActivity"></activity>
+        <activity android:name="com.example.qwei.common.TestTorchActivity"></activity>
+        <activity android:name="com.example.qwei.common.CameraCharacteristicsActivity"></activity>
 
-        <activity android:name="com.example.qwei.checkCameraManager.CameraManagerActivity"
-            >
-        </activity>
     </application>
 
 </manifest>

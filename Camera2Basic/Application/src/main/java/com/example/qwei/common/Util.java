@@ -148,7 +148,8 @@ public class Util {
 
 
     private static String getStreamConfigureationMapString(StreamConfigurationMap map){
-        return map.toString();
+
+        return map.toString().replaceAll("\\[", "\n[");
     }
 
     private static String getBlackLevelPatternString(BlackLevelPattern pattern){

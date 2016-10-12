@@ -1,4 +1,4 @@
-package com.nubia.qwei.hal3camera;
+package com.nubia.qwei.hal3camera.views;
 
 import android.content.Context;
 import android.util.AttributeSet;

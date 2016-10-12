@@ -1,8 +1,10 @@
-package com.nubia.qwei.hal3camera;
+package com.nubia.qwei.hal3camera.views;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
+
+import com.nubia.qwei.hal3camera.R;
+import com.nubia.qwei.hal3camera.models.permission.PermissionManager;
 
 public class MainActivity extends Activity {
 
@@ -22,11 +24,18 @@ public class MainActivity extends Activity {
         }
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        PermissionManager.onRequestPermissionsResult(requestCode,permissions, grantResults);
+    }
+
     /**
      * A native method that is implemented by the 'native-lib' native library,
      * which is packaged with this application.
+     *
      * @return 从JNI返回字符串
      */
     public native String stringFromJNI();
+
     public native String stringFromJ();
 }
